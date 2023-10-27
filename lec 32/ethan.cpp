@@ -65,6 +65,5 @@ int main() {
     }
 
     printHeap(maxHeap, heapSize);
-
     return 0;
 }

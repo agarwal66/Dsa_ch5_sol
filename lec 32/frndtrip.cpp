@@ -24,7 +24,7 @@
 using namespace std;
 void MaxHeapify(int arr[], int i, int N)
 {
-      int largest = i;
+    int largest = i;
     int leftChild = 2*i+1;
     int rightChild = 2*i+2;
     if(leftChild < N && arr[leftChild] > arr[largest]){
@@ -38,7 +38,6 @@ void MaxHeapify(int arr[], int i, int N)
        MaxHeapify(arr,largest,N);
     }
 }
-
 
 void convertMaxHeap(int arr[], int N)
 {

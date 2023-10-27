@@ -116,7 +116,7 @@ int main() {
             break;
         }
 
-        insertTaskPriority(minHeap, heapSize, newTask);
+    insertTaskPriority(minHeap, heapSize, newTask);
     }
     printHeap(minHeap, heapSize);
 

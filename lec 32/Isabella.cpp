@@ -29,7 +29,7 @@ void swap(Job& a, Job& b) {
 void insertJob(Job heap[], int& heapSize, int newJobPriority) {
      int currentIndex;
      Job newJob;
-     newJob.priority = newJobPriority;
+        newJob.priority = newJobPriority;
         heap[heapSize] = newJob;
         currentIndex = heapSize;
 
@@ -66,7 +66,7 @@ int main() {
             break;
         }
 
-        insertJob(minHeap, heapSize, newJobPriority);
+    insertJob(minHeap, heapSize, newJobPriority);
     }
 
     printHeap(minHeap, heapSize);
