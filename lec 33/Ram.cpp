@@ -49,7 +49,6 @@ void buildMaxHeap(string arr[], int n) {
         heapify(arr, n, i);
     }
 }
-
 void heapSort(string arr[], int n) 
 {
     for(int i=n/2-1;i>=0;i--){
@@ -59,7 +58,7 @@ void heapSort(string arr[], int n)
         swap(arr[0],arr[i]);
         heapify(arr,i,0);
     }
-}
+} 
 
 int main() {
     int n;

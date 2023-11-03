@@ -58,6 +58,7 @@ void printArray(int* arr, int size)
     cout<<endl;
 }
 int main()
+
 {
     int arrayCount;
     cin>>arrayCount;

@@ -25,7 +25,6 @@
 // You are using GCC
 #include <iostream>
 using namespace std;
-
 struct RideRequest {
     int estimatedPickUpTime;
 };
